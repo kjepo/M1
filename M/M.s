@@ -258,7 +258,7 @@ MTEST:
 	.quad 	EXIT		
 
 MTEST2:
-	.quad 	DOLIT		// pointer to codeword of PUSH27
+	.quad 	DOLIT
 	.quad	4
 	.quad 	TRIPLE	
 	.quad 	DOT		
@@ -266,8 +266,8 @@ MTEST2:
 	.quad 	EXIT		
 	
 MTEST3:
-	.quad 	DOLIT		// pointer to codeword of PUSH27
-	.quad	4
+	.quad 	DOLIT
+	.quad	2
 	.quad	DOLIT
 	.quad 	3
 	.quad 	TIMES	
